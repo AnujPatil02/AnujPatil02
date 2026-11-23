@@ -3,9 +3,9 @@
 
 ### Computer Science Engineering Student | Data Analytics | Data Science | Applied AI | Industrial IoT
 
-I'm a Computer Science and Engineering student specializing in **IoT and Cybersecurity**, interested in building practical, data-driven solutions for industrial and real-world applications.
+I'm a Computer Science Engineering student (specialising in IoT and Cybersecurity) and I'm very much interested in building practical, data-driven solutions for the industrial world.
 
-My project work focuses on transforming operational and sensor data into useful insights through analytics, dashboards, forecasting, connected systems and AI-assisted decision support.
+My project work is all about taking the operational and sensor data and turning it into useful insight via analytics, dashboards, forecasting, connected systems and AI assisted decision support.
 
 I'm particularly interested in **Data Analytics, Data Science, Artificial Intelligence Engineering, Industrial IoT, Industry 4.0, Smart Manufacturing and the Automotive Industry**.
 
@@ -19,8 +19,7 @@ I'm particularly interested in **Data Analytics, Data Science, Artificial Intell
 - Industrial IoT and Connected Systems
 - Industry 4.0 and Smart Manufacturing
 - Automotive Technology and Digitalization
-- Predictive Maintenance and Operational Intelligence
-- Renewable Energy and Industrial Analytics
+- Industrial Analytics
 
 ---
 
@@ -86,13 +85,13 @@ A data-driven decision-support platform for reservoir monitoring, forecasting an
 
 ## Technical Skills
 
-**Programming:** Python, SQL, JavaScript
+**Programming:** Python, SQL
 
 **Data Analytics:** Microsoft Excel, Power BI, Tableau, Pandas, NumPy, Plotly, Matplotlib
 
-**Databases:** PostgreSQL, TimescaleDB, MySQL, SQLite, InfluxDB
+**Databases:** PostgreSQL, MySQL, SQLite
 
-**Artificial Intelligence:** Scikit-learn, XGBoost, LSTM, LangGraph, LangChain, SHAP, MLflow
+**Artificial Intelligence:** XGBoost, LSTM, LangGraph, LangChain, SHAP, MLflow
 
 **Industrial IoT:** MQTT, OPC-UA, Sensor Data Acquisition, Time-Series Data, Digital Twins, Grafana
 
