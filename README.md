@@ -85,32 +85,31 @@ A data-driven decision-support platform for reservoir monitoring, forecasting an
 
 ## Technical Skills
 
-**Programming:** Python, SQL
-
-**Data Analytics:** Microsoft Excel, Power BI, Tableau, Pandas, NumPy, Plotly, Matplotlib
-
-**Databases:** PostgreSQL, MySQL, SQLite
-
-**Artificial Intelligence:** XGBoost, LSTM, LangGraph, LangChain, SHAP, MLflow
-
-**Industrial IoT:** MQTT, OPC-UA, Sensor Data Acquisition, Time-Series Data, Digital Twins, Grafana
-
-**Development and Tools:** Streamlit, FastAPI, React, Three.js, Docker, Git, GitHub, Jupyter Notebook
+| Category | Technologies & Tools |
+|:---|:---|
+| **Programming** | Python, SQL |
+| **Data Analytics** | Microsoft Excel, Power BI, Tableau, Pandas, NumPy, Plotly, Matplotlib |
+| **Databases** | PostgreSQL, MySQL, SQLite |
+| **Artificial Intelligence** | XGBoost, LSTM, LangGraph, LangChain, SHAP, MLflow |
+| **Industrial IoT** | MQTT, OPC-UA, Sensor Data Acquisition, Time-Series Data, Digital Twins, Grafana |
+| **Development & Tools** | Streamlit, FastAPI, React, Three.js, Docker, Git, GitHub, Jupyter Notebook |
 
 ---
 
 ## Certifications and Job Simulations
 
-- Data Analytics Essentials — Cisco Networking Academy
-- Python Essentials 1 & 2 — Cisco Networking Academy
-- Deloitte Data Analytics Job Simulation — Forage
-- Tata GenAI Data Analytics Job Simulation — Forage
-- Data Analysis with Python — Cognitive Class
-- SQL and Relational Databases — Cognitive Class
-- Advanced SQL — Kaggle
-- Data Science 101 — Cognitive Class
-- Deep Learning Fundamentals — Cognitive Class
-- Exploratory Data Analysis with Python & GenAI — Analytics Vidhya
+| Certification / Job Simulation | Platform |
+|:---|:---|
+| Data Analytics Essentials | Cisco Networking Academy |
+| Python Essentials 1 & 2 | Cisco Networking Academy |
+| Deloitte Data Analytics Job Simulation | Forage |
+| Tata GenAI Data Analytics Job Simulation | Forage |
+| Data Analysis with Python | Cognitive Class |
+| SQL and Relational Databases | Cognitive Class |
+| Advanced SQL | Kaggle |
+| Data Science 101 | Cognitive Class |
+| Deep Learning Fundamentals | Cognitive Class |
+| Exploratory Data Analysis with Python & GenAI | Analytics Vidhya |
 
 ---
 
