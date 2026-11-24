@@ -25,61 +25,58 @@ I'm particularly interested in **Data Analytics, Data Science, Artificial Intell
 
 ## Featured Projects
 
-### 1. NeuroPlant AI — Industrial IoT and Smart Manufacturing Platform
+### NeuroPlant AI — Industrial IoT and Smart Manufacturing Platform
 
-An Industry 4.0 project focused on connected factory operations, machine monitoring and digital-twin-based visualization.
+A 10-layer Industry 4.0 platform for a simulated automotive drivetrain factory (3 production lines, 12 CNC machines, assembly robot, support assets), covering connected factory operations, machine monitoring and digital-twin visualization.
 
-- Simulated industrial sensor-data collection through MQTT and OPC-UA.
-- Machine condition monitoring and predictive-maintenance workflows.
-- OEE, production, energy and quality analytics.
-- 3D factory digital twin with machine-status visualization.
-- AI-assisted operational insights and reporting.
+- Simulated sensor-data collection through MQTT and OPC-UA, stored in InfluxDB, PostgreSQL and Redis.
+- Predictive maintenance: XGBoost and LSTM remaining-useful-life models, FFT bearing-fault analysis, Isolation Forest anomaly detection, SHAP explanations.
+- OEE, production, energy and quality analytics, with SciPy LP maintenance and shift optimization.
+- 3D React Three Fiber digital twin with machine-status visualization and failure-scenario simulation.
+- LangChain + Gemini factory assistant (offline fallback) and automated PDF shift and executive reports.
 
-**Technologies:** Python, MQTT, OPC-UA, InfluxDB, PostgreSQL, Redis, Grafana, FastAPI, React, Three.js, Docker.
+**Technologies:** Python, MQTT, OPC-UA, InfluxDB, PostgreSQL, Redis, Grafana, FastAPI, Streamlit, XGBoost, LSTM, SHAP, MLflow, LangChain, React, Three.js, Docker.
 
 [View Repository](https://github.com/AnujPatil02/REPLACE-WITH-NEUROPLANT-REPO)
 
-### 2. OpsIntel AI — Manufacturing Operations Analytics
+### 2. OpsIntel AI — Manufacturing Intelligence Platform
 
-A manufacturing analytics platform designed to analyse operational performance across multiple simulated plants and production lines.
+An end-to-end analytics platform that analyses operational performance across 5 simulated plants and 3 production lines (32,400 records) and turns it into decision-ready dashboards.
 
-- Structured 32,400 simulated manufacturing records.
-- Designed a PostgreSQL/TimescaleDB analytical data model.
-- Used SQL queries, CTEs and window functions for analysis.
-- Developed Power BI dashboards with DAX measures.
-- Analysed OEE, downtime, production, quality and energy KPIs.
+- Designed a PostgreSQL/TimescaleDB star-schema data model (Dockerised) and exposed it through a FastAPI backend.
+- Wrote SQL analytics with CTEs and window functions, and built Power BI dashboards with DAX measures for OEE, plant ranking and downtime Pareto.
+- Analysed OEE, downtime, production, quality and energy KPIs in a Streamlit dashboard, with Isolation Forest anomaly detection, Prophet/ARIMA forecasting and a Gemini-based chat assistant.
 
-**Technologies:** Python, SQL, PostgreSQL, TimescaleDB, Power BI, Tableau, Streamlit.
+**Technologies:** Python, SQL, PostgreSQL, TimescaleDB, FastAPI, Docker, Power BI, Tableau, Streamlit, Scikit-learn, Prophet, LangChain
 
 [View Repository](https://github.com/AnujPatil02/REPLACE-WITH-OPSINTEL-REPO)
 
 ### 3. WindSense AI — Wind Turbine Intelligence and Predictive Maintenance
 
-A renewable-energy analytics project focused on monitoring simulated wind turbines and supporting maintenance decisions.
+A multi-agent predictive-maintenance system for a simulated 5-turbine, 10 MW wind farm that monitors turbine health and supports maintenance decisions.
 
-- Simulated SCADA-style sensor readings for a five-turbine wind farm.
-- Developed anomaly-detection and remaining-useful-life workflows.
-- Compared forecasting and predictive models.
-- Built an AI-agent workflow for maintenance recommendations.
-- Created dashboards and a 3D turbine visualization.
+- Simulated SCADA-style sensor streams (temperature, vibration, RPM, power, gear oil pressure) published via MQTT and stored in InfluxDB.
+- Compared LSTM Autoencoder vs Isolation Forest for anomaly detection and XGBoost vs LSTM for remaining useful life (RUL) estimation, plus Prophet/LSTM for energy forecasting.
+- Built LangGraph agents that turn model outputs into maintenance recommendations, with a local RAG assistant (FAISS + Ollama) explaining each decision in plain English.
+- Delivered a 10-page Streamlit dashboard with a 3D digital twin, with experiments tracked in MLflow and data drift monitored with Evidently AI.
 
-**Technologies:** Python, MQTT, InfluxDB, XGBoost, LSTM, Prophet, LangGraph, MLflow, Streamlit, FAISS.
+**Technologies:** Python, MQTT, InfluxDB, XGBoost, LSTM, Prophet, LangGraph, FAISS, Ollama, MLflow, Evidently AI, Streamlit, React Three Fiber, Docker.
 
-[View Repository](https://github.com/AnujPatil02/REPLACE-WITH-WINDSENSE-REPO)
+[View Repository](https://github.com/AnujPatil02/WindSense-AI)
 
-### 4. HydroSight — Reservoir Analytics and Hydropower Optimization
+### 4. HydroSight: Reservoir Analytics and Hydropower Optimization
 
-A data-driven decision-support platform for reservoir monitoring, forecasting and hydropower operations.
+An end-to-end decision-support platform for reservoir monitoring, forecasting and hydropower operations.
 
 - Analysed simulated and collected reservoir-related data for 10 Indian reservoirs.
-- Forecast reservoir water levels and hydropower generation.
-- Used uncertainty intervals to communicate forecast ranges.
-- Developed linear-programming-based water-release scenarios.
-- Created dashboards for reservoir monitoring and operational insights.
+- Built a data pipeline on simulated, CWC-specification-based reservoir data covering storage, inflow, net head, and turbine efficiency.
+- Forecast water levels with an LSTM and hydropower generation with XGBoost (benchmarked against Prophet), with conformal prediction intervals to show forecast uncertainty.
+- Developed a SciPy linear-programming optimizer that compares Power Priority vs Water Security release schedules, with drought/flood alerts and Isolation Forest anomaly detection.
+- Delivered a Streamlit dashboard and FastAPI backend with SHAP explanations, MLflow tracking, and Gemini-generated plain-English operations briefs.
 
-**Technologies:** Python, Pandas, XGBoost, LSTM, Prophet, SciPy, SHAP, Streamlit, FastAPI.
+**Technologies:** Python, Pandas, TensorFlow (LSTM), XGBoost, Prophet, SciPy, SHAP, Isolation Forest, MLflow, Streamlit, FastAPI, LangChain.
 
-[View Repository](https://github.com/AnujPatil02/REPLACE-WITH-HYDROSIGHT-REPO)
+[View Repository](https://github.com/AnujPatil02/HydroSight)
 
 ---
 
